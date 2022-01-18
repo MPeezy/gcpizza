@@ -1,0 +1,38 @@
+<h1>***Grand Chirpus Pizza***</h1>
+
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+    </style>
+</head>
+
+
+<table>
+    <tr>
+        <th>Item, Category, Price</th>
+        
+    </tr>
+
+    <div *ngFor="let menu of menu; index as i">
+        <p> {{menu}}</p>
+      </div>
+
+
+</table>
+
+
+
+
+<!-- <div *ngFor="let menu of menu; index as i">
+    <p>{{i}} : {{menu}}</p>
+  </div> -->
